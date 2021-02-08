@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('../font/JetBrainsMono-Regular.ttf');
+}
+
+body {
+    font-family: MyFont;
+}
+
+.thumbnail-size {
+    width: 100vw;
+    padding: 0;
+}
+
+.adj-jump {
+    padding-top: 5vw;
+    margin-top: -5vw;
+}
+
+.nav-color {
+    background-color: #07124d;
+    text-decoration-color: darkgray;
+}

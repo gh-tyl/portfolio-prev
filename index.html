@@ -11,36 +11,100 @@
     <title>Tyler Inari | Portfolio</title>
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark align-items-center">
-            <a class="navbar-brand" href="#">Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Profile <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Works <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Profile <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacts <span class="sr-only">(current)</span></a>
-                    </li>
+<body class="bg-white">
+    <header class="container">
+        <div class="fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+                <!-- <nav class="navbar navbar-expand-lg nav-color"> -->
+                <a class="navbar-brand" href="#">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto"></ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#works">Works <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Contacts <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <div>
+            <p><img src="./img/profile.jpeg" class="thumbnail-size"></p>
+        </div>
+        <div class="container">
+            <h1 id="about" class="adj-jump">About</h1>
+            <div>
+                <ul class="list-group profile-position">
+                    <li class="list-group-item bg-transparent text-describes">稲荷太良 - Tyler Inari -</li>
+                    <li class="list-group-item bg-transparent text-describes">武蔵野大学データサイエンス学部 - Faculty of Data Science, Musashino University - </li>
+                    <!-- <li class="list-group-item bg-transparent text-columns">Skills</li>
+                    <li class="list-group-item bg-transparent text-describe">Python</li>
+                    <li class="list-group-item bg-transparent text-describe">HTML</li>
+                    <li class="list-group-item bg-transparent text-describe">CSS</li>
+                    <li class="list-group-item bg-transparent text-columns">Other Skills</li>
+                    <li class="list-group-item bg-transparent text-describe">Adobe Premiere</li>
+                    <li class="list-group-item bg-transparent text-describe">Adobe After Effect</li> -->
                 </ul>
             </div>
-        </nav>
-    </header>
-    <h1>Hello World!!!</h1>
+            <h1 id="works" class="adj-jump">Works</h1>
+            <div class="container">
+                <!-- HackBowl -->
+                <div class="col-lg-4 card-position">
+                    <div class="card bg-info">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase text-columns4work">プログラミング初学者向け学習ツール</h5>
+                            <h6 class="card-price text-describes4work"><span class="period">初Hackason作品</span>
+                                <h6 class="card-price text-describes4work"><span class="period">企業賞受賞</span>
+                                </h6>
+                                <a href="https://qiita.com/Yodaka_ay" target="_blank" rel="noopener noreferrer">
+                                    <p>
+                                        <img src="./img/placeholder.jpeg" alt=""
+                                            class="img-fluid img-thumbnail rounded mx-auto d-block img-icon">
+                                    </p>
+                                </a>
+                                <hr>
+                                <p class="text-describes4work">HTML</p>
+                                <p class="text-describes4work">CSS</p>
+                                <p class="text-describes4work">Java</p>
+                                <a href="#works"
+                                    class="btn btn-block btn-dark btn-outline-secondary text-uppercase text-white">coming
+                                    soon</a>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+            <h1 id="contacts" class="adj-jump">Contacts</h1>
+            <p>pienpienpapupaon</p>
+            <p>pienpienpapupaon</p>
+            <p>pienpienpapupaon</p>
+            <p>pienpienpapupaon</p>
+            <p>pienpienpapupaon</p>
+            <p>pienpienpapupaon</p>
+            <p>pienpienpapupaon</p>
+            <p>pienpienpapupaon</p>
+            <p>pienpienpapupaon</p>
+            <p>pienpienpapupaon</p>
+            <p>pienpienpapupaon</p>
+            <p>pienpienpapupaon</p>
+        </div>
+    </div>
 
+    <footer class="card-footer text-center text-white">
+        <p>© 2021 Tyler Inari.</p>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

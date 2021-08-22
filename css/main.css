@@ -5,6 +5,8 @@
     src: url('../font/JetBrainsMono-Regular.ttf');
 }
 
+html { scroll-behavior: smooth;}
+
 body {
     font-family: MyFont;
     background-color: rgb(190, 190, 190);

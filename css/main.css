@@ -12,6 +12,21 @@ body {
     background-color: rgb(190, 190, 190);
 }
 
+.top-position {
+    position: relative;
+}
+
+.top-position div {
+    position: absolute;
+    top: 500px;
+    right: 50px;
+}
+
+.about-design {
+    padding: 1vw;
+    background: rgba(10, 200, 255, 0.5);
+}
+
 .thumbnail-size {
     width: 100vw;
     padding: 0;

@@ -22,6 +22,10 @@ body {
     right: 50px;
 }
 
+.filter-img {
+    opacity: 0.8;
+}
+
 .about-design {
     padding: 1vw;
     background: rgba(10, 200, 255, 0.5);

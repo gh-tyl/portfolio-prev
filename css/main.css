@@ -22,8 +22,8 @@ body {
     right: 50px;
 }
 
-.filter-img {
-    opacity: 0.8;
+.top-position img ::after{
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .about-design {
